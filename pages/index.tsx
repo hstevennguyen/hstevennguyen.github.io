@@ -113,7 +113,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='basis-1/3 flex-1'>
-                  <Image src={web1} alt="sample image of tak list site" className="rounded-lg object-cover " width={'100%'} height={'100%'} onClick={() => window.open('https://hstevennguyen.github.io/tasklist-project/#', '_blank')}  />
+                  <Image src={web1} alt="sample image of tak list site" className="rounded-lg object-cover w-full h-full" onClick={() => window.open('https://hstevennguyen.github.io/tasklist-project/#', '_blank')}  />
                 </div>
               </div>
               <div className="overflow-hidden bg-red-400 cursor-pointer rounded-xl relative group">
@@ -131,7 +131,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='basis-1/3 flex-1'>
-                  <Image src={web2} alt="sample image of shopping cart site" className="rounded-lg object-cover" width={'100%'} height={'100%'}/>
+                  <Image src={web2} alt="sample image of shopping cart site" className="rounded-lg object-cover w-full h-full"/>
                 </div>
               </div>
             </div>
