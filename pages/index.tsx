@@ -2,17 +2,12 @@ import Head from 'next/head';
 import {BsFillMoonStarsFill} from 'react-icons/bs';
 import {AiFillGithub, AiFillLinkedin} from 'react-icons/ai';
 import Image from "next/image";
-import stever from '../public/steverender.png';
 import stevep from '../public/stevep.png';
 import design from '../public/design.png';
 import code from '../public/code.png';
 import consulting from '../public/consulting.png';
 import web1 from '../public/web1.png';
 import web2 from '../public/web2.png';
-import web3 from '../public/web3.png';
-import web4 from '../public/web4.png';
-import web5 from '../public/web5.png';
-import web6 from '../public/web6.png';
 import {useState} from 'react';
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -44,7 +39,7 @@ export default function Home() {
               <AiFillLinkedin className='cursor-pointer ' onClick={() => window.open('https://www.linkedin.com/in/stevennguyen0196/', '_blank')}/>
             </div>
             <div id="profile" className='relative mx-auto bg-gradient-to-b from-teal-400 rounded-full w-80 h-80 mt-20 overflow-hidden md:h-96 md:w-96 dark:bg-gradient-to-t dark:from-teal-600'>
-              <Image src={stevep} />
+              <Image src={stevep} alt="Profile picture of Steven" />
             </div>
           </section>
           <section>
@@ -59,7 +54,7 @@ export default function Home() {
             </div>
             <div className='lg:flex gap-10'>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image src={design} width={100} height={100} className="mx-auto"/>
+                <Image src={design} alt="icon representing design" width={100} height={100} className="mx-auto"/>
                 <h3 className='text-lg font-medium pt-8 pb-2 text-gray-800 dark:text-gray-400'>Beautiful designs</h3>
                 <p className='py-2 text-gray-800 dark:text-gray-400'>
                   Creating elegant designs suited for your needs following core design theory.
@@ -70,7 +65,7 @@ export default function Home() {
                 <p className='text-gray-800 dark:text-gray-500 py-1'>Figma</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image src={code} width={100} height={100} className="mx-auto"/>
+                <Image src={code} alt="hashtag picture representing code" width={100} height={100} className="mx-auto"/>
                 <h3 className='text-lg font-medium pt-8 pb-2 text-gray-800 dark:text-gray-400'>Innovative Code</h3>
                 <p className='py-2 text-gray-800 dark:text-gray-400'>
                   With a solid foundation in web development I am able to create responsive web designs.
@@ -83,7 +78,7 @@ export default function Home() {
                 <p className='text-gray-800 dark:text-gray-500 py-1'>React and Next JS</p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl my-10">
-                <Image src={consulting} width={100} height={100} className="mx-auto"/>
+                <Image src={consulting} alt ="Thumbs up picture" width={100} height={100} className="mx-auto"/>
                 <h3 className='text-lg font-medium pt-8 pb-2 text-gray-800 dark:text-gray-400'>Personal Coaching</h3>
                 <p className='py-2 text-gray-800 dark:text-gray-400'>
                   With strong knowledge in personal development and fitness I can help with others on their self improvement journey.
@@ -118,7 +113,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='basis-1/3 flex-1'>
-                  <Image src={web1} className="rounded-lg object-cover " width={'100%'} height={'100%'} onClick={() => window.open('https://hstevennguyen.github.io/tasklist-project/#', '_blank')}  />
+                  <Image src={web1} alt="sample image of tak list site" className="rounded-lg object-cover " width={'100%'} height={'100%'} onClick={() => window.open('https://hstevennguyen.github.io/tasklist-project/#', '_blank')}  />
                 </div>
               </div>
               <div className="overflow-hidden bg-red-400 cursor-pointer rounded-xl relative group">
@@ -136,7 +131,7 @@ export default function Home() {
                   </div>
                 </div>
                 <div className='basis-1/3 flex-1'>
-                  <Image src={web2} className="rounded-lg object-cover" width={'100%'} height={'100%'}/>
+                  <Image src={web2} alt="sample image of shopping cart site" className="rounded-lg object-cover" width={'100%'} height={'100%'}/>
                 </div>
               </div>
             </div>
