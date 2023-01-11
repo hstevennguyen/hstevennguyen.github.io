@@ -46,7 +46,7 @@ export default function Home() {
             <div>
               <h3 className='text-3xl py-1'>Services I offer</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-500'>
-                Since the beginning of my journey as a web developer, I've worked on projects collaboratively as well as by myself. I am always looking for opportunities to improve my own skillset and love implementing new tools into my work.
+                Since the beginning of my journey as a web developer, I have worked on projects collaboratively as well as by myself. I am always looking for opportunities to improve my own skillset and love implementing new tools into my work.
               </p>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-500'>
                 I offer a wide range of services, including web design, web app creation and mindset coaching.
@@ -94,7 +94,7 @@ export default function Home() {
             <div>
               <h3 className='text-3xl py-1 text-gray-800 dark:text-gray-400'>Portfolio</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-500'>
-                Since the beginning of my journey as a web developer, I've created websites for myself and friends as projects. I am always looking for opportunities to improve my own skillset and love implementing new tools into my work.
+                Since the beginning of my journey as a web developer, I have created websites for myself and friends as projects. I am always looking for opportunities to improve my own skillset and love implementing new tools into my work.
               </p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
