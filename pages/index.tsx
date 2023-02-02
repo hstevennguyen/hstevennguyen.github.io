@@ -32,7 +32,7 @@ export default function Home() {
             <div className='text-center p-10'>
               <h2 className='text-5xl py-2 text-teal-600 font-medium md:text-6xl dark:text-teal-800'>Steven Nguyen</h2>
               <h3 className='text-2xl py-2 md:text-3xl text-gray-800 dark:text-gray-500'>Developer and designer.</h3>
-              <p className='text-md py-5 leading-8 text-gray-800 md:text-xl max-w-lg mx-auto'>Web developer providing services for websites and web apps currently seeking employment. Join me below to see how we can work together!</p>
+              <p className='text-md py-5 leading-8 text-gray-800 dark:text-gray-500 md:text-xl max-w-lg mx-auto'>Web developer providing services for websites and web apps currently seeking employment. Join me below to see how we can work together!</p>
             </div>
             <div className='text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400'>
               <AiFillGithub className='cursor-pointer ' onClick={() => window.open('https://github.com/hstevennguyen', '_blank')}/>
