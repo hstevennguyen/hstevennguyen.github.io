@@ -94,7 +94,7 @@ export default function Home() {
             <div>
               <h3 className='text-3xl py-1 text-gray-800 dark:text-gray-400'>Portfolio</h3>
               <p className='text-md py-2 leading-8 text-gray-800 dark:text-gray-500'>
-                Since the beginning of my journey as a web developer, I have created websites for myself and friends as projects. I am always looking for opportunities to improve my own skillset and love implementing new tools into my work.
+                This is my current portfolio of work, as I am a new web developer there are only a few projects to share however as I expand my skill set and complete more works I will update this page.
               </p>
             </div>
             <div className='flex flex-col gap-10 py-10 lg:flex-row lg:flex-wrap'>
@@ -116,24 +116,7 @@ export default function Home() {
                   <Image src={web1} alt="sample image of tak list site" className="rounded-lg object-cover w-full h-full" onClick={() => window.open('https://hstevennguyen.github.io/tasklist-project/#', '_blank')}  />
                 </div>
               </div>
-              <div className="overflow-hidden bg-red-400 cursor-pointer rounded-xl relative group">
-              <div className="rounded-xl z-50 opacity-0 group-hover:opacity-100 transition duration-300 ease-in-out cursor-pointer absolute from-black/80 to-transparent bg-gradient-to-t inset-x-0 -bottom-2 pt-30 text-white flex items-end">
-                  <div>
-                    <div
-                        className="transform-gpu  p-4 space-y-3 text-xl group-hover:opacity-100 group-hover:translate-y-0 translate-y-4 pb-10 transform transition duration-300 ease-in-out"
-                    >
-                        <div className="font-bold">Shopping Cart App</div>
-
-                        <div className="opacity-60 text-sm ">
-                            This is a project I created as a coding challenge during my coding bootcamp with Generation Australia. It is a shopping cart application that uses HTML, CSS, Javascript and React. Click on the image to visit the site hosted on github.
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <div className='basis-1/3 flex-1'>
-                  <Image src={web2} alt="sample image of shopping cart site" className="rounded-lg object-cover w-full h-full"/>
-                </div>
-              </div>
+              
             </div>
           </section>
         </main>
